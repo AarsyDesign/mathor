@@ -42,6 +42,7 @@ Brass tidak boleh mendominasi lebih dari sekitar 10% bidang visual.
 - Sans: `Inter` atau system sans. Dipakai untuk body, navigasi, tombol, label, dan data.
 - Body ideal: 16-18 px, line-height 1.65.
 - Eyebrow: 11 px uppercase dengan letter-spacing 0.16em.
+- Eyebrow pada latar gelap memakai warm ivory `#FFF3D6`, bukan rust, agar teks kecil tetap terbaca jelas.
 - Jangan memakai teks hero raksasa yang menguasai seluruh layar.
 
 ## Layout & Spacing
