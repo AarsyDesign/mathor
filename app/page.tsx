@@ -165,11 +165,23 @@ export default function Home() {
           </p>
         </div>
         <div className="route-line" aria-label="Distribution path from Pontianak to national market">
-          <span>Pontianak</span>
+          <div className="route-step">
+            <span aria-hidden="true" />
+            <strong>Pontianak</strong>
+            <small>Berangkat</small>
+          </div>
           <i />
-          <span>Kalbar Retail</span>
+          <div className="route-step">
+            <span aria-hidden="true" />
+            <strong>Retail Kalbar</strong>
+            <small>Jaringan offline</small>
+          </div>
           <i />
-          <span>Online Nasional</span>
+          <div className="route-step">
+            <span aria-hidden="true" />
+            <strong>Indonesia</strong>
+            <small>Jangkauan online</small>
+          </div>
         </div>
       </section>
 
