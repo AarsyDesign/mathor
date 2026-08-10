@@ -29,6 +29,11 @@
     "Retail supply",
     "Online nasional"
   ],
+  "collectionCta": {
+    "title": "Sudah menemukan karakter aromamu?",
+    "text": "Lihat koleksi Mathor yang tersedia dan pilih varian melalui toko resmi kami.",
+    "label": "Lihat di Shopee"
+  },
   "products": [
     {
       "name": "Aurora Citrus",

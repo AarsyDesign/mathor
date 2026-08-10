@@ -79,7 +79,7 @@ Primary charcoal, secondary transparan dengan border. Gunakan pill hanya untuk C
 
 ### Motion
 
-Durasi 160-240 ms. Hover menggunakan perubahan warna, garis, atau perpindahan maksimal 2 px. Hormati `prefers-reduced-motion`.
+Durasi transisi UI 160-240 ms. Hover menggunakan perubahan warna, garis, atau perpindahan maksimal 2 px. Animasi naratif boleh lebih panjang: sinyal distribusi 900 ms dan statistik 1.200 ms, masing-masing hanya berjalan saat dipicu. Seluruh motion harus menghormati `prefers-reduced-motion`.
 
 ## Content Editing
 

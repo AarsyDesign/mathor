@@ -1,7 +1,7 @@
 "use client";
 
 import type { CSSProperties } from "react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { siteContent } from "./content";
 
 const { brand } = siteContent;
@@ -18,9 +18,74 @@ function Logo() {
   );
 }
 
+function StatCounter({ value, index }: { value: string; index: number }) {
+  const elementRef = useRef<HTMLSpanElement>(null);
+  const [displayValue, setDisplayValue] = useState("0");
+
+  useEffect(() => {
+    const element = elementRef.current;
+    if (!element) return;
+
+    const match = value.match(/^(\d+)(.*)$/);
+    if (!match) {
+      setDisplayValue(value);
+      return;
+    }
+
+    const target = Number(match[1]);
+    const suffix = match[2];
+    let frame = 0;
+    let delay = 0;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        observer.disconnect();
+
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          setDisplayValue(value);
+          return;
+        }
+
+        delay = window.setTimeout(() => {
+          const startedAt = performance.now();
+          const animate = (now: number) => {
+            const progress = Math.min((now - startedAt) / 1200, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            setDisplayValue(`${Math.round(target * eased)}${suffix}`);
+            if (progress < 1) frame = requestAnimationFrame(animate);
+          };
+          frame = requestAnimationFrame(animate);
+        }, index * 110);
+      },
+      { threshold: 0.35 },
+    );
+
+    observer.observe(element);
+    return () => {
+      observer.disconnect();
+      window.clearTimeout(delay);
+      cancelAnimationFrame(frame);
+    };
+  }, [index, value]);
+
+  return (
+    <span ref={elementRef} aria-label={value}>
+      <span aria-hidden="true">{displayValue}</span>
+    </span>
+  );
+}
+
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
+  const [activeRoute, setActiveRoute] = useState(0);
+  const [routePulse, setRoutePulse] = useState(0);
+
+  const activateRoute = (index: number) => {
+    setActiveRoute(index);
+    setRoutePulse((value) => value + 1);
+  };
 
   return (
     <main id="top">
@@ -80,9 +145,9 @@ export default function Home() {
       </section>
 
       <section className="stats-band" aria-label="Mathor statistics">
-        {siteContent.stats.map((stat) => (
+        {siteContent.stats.map((stat, index) => (
           <div key={stat.label}>
-            <strong>{stat.value}</strong>
+            <strong><StatCounter value={stat.value} index={index} /></strong>
             <span>{stat.label}</span>
           </div>
         ))}
@@ -136,6 +201,15 @@ export default function Home() {
             </article>
           ))}
         </div>
+        <div className="collection-cta">
+          <div>
+            <strong>{siteContent.collectionCta.title}</strong>
+            <p>{siteContent.collectionCta.text}</p>
+          </div>
+          <a className="button primary" href={brand.shopeeUrl}>
+            {siteContent.collectionCta.label} <span aria-hidden="true">↗</span>
+          </a>
+        </div>
       </section>
 
       <section className="section why" id="why">
@@ -165,23 +239,24 @@ export default function Home() {
           </p>
         </div>
         <div className="route-line" aria-label="Distribution path from Pontianak to national market">
-          <div className="route-step">
+          {routePulse > 0 && <span className="route-signal" key={routePulse} aria-hidden="true" />}
+          <button className={activeRoute === 0 ? "route-step active" : "route-step"} type="button" aria-pressed={activeRoute === 0} onClick={() => activateRoute(0)}>
             <span aria-hidden="true" />
             <strong>Pontianak</strong>
             <small>Berangkat</small>
-          </div>
+          </button>
           <i />
-          <div className="route-step">
+          <button className={activeRoute === 1 ? "route-step active" : "route-step"} type="button" aria-pressed={activeRoute === 1} onClick={() => activateRoute(1)}>
             <span aria-hidden="true" />
             <strong>Retail Kalbar</strong>
             <small>Jaringan offline</small>
-          </div>
+          </button>
           <i />
-          <div className="route-step">
+          <button className={activeRoute === 2 ? "route-step active" : "route-step"} type="button" aria-pressed={activeRoute === 2} onClick={() => activateRoute(2)}>
             <span aria-hidden="true" />
             <strong>Indonesia</strong>
             <small>Jangkauan online</small>
-          </div>
+          </button>
         </div>
       </section>
 
