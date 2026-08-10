@@ -8,8 +8,12 @@ const { brand } = siteContent;
 
 function Logo() {
   return (
-    <a className="logo" href="#top" aria-label="Mathor home">
-      <img src="/mathor-logo.svg" alt="Mathor" />
+    <a className="brandmark" href="#top" aria-label="Mathor home">
+      <span className="brandmark-symbol" aria-hidden="true">M</span>
+      <span className="brandmark-copy">
+        <strong>MATHOR</strong>
+        <small>Fragrance House</small>
+      </span>
     </a>
   );
 }
@@ -30,9 +34,6 @@ export default function Home() {
           ))}
         </nav>
         <div className="header-actions">
-          <a className="icon-link" href={brand.instagramUrl} aria-label="Instagram">
-            IG
-          </a>
           <a className="button ghost" href={brand.shopeeUrl}>
             Shopee
           </a>
@@ -51,9 +52,9 @@ export default function Home() {
 
       <section className="hero">
         <div className="hero-copy reveal">
-          <p className="eyebrow">{brand.location}</p>
-          <h1>{brand.name}</h1>
-          <p className="tagline">{brand.tagline}</p>
+          <p className="eyebrow">Fragrance house / {brand.location}</p>
+          <h1>Aroma yang tumbuh bersama langkahmu.</h1>
+          <p className="tagline">Original dan custom fragrance dari Pontianak.</p>
           <p className="hero-text">{brand.summary}</p>
           <div className="hero-actions">
             <a className="button primary" href={brand.shopeeUrl}>
@@ -63,7 +64,7 @@ export default function Home() {
               Chat WhatsApp
             </a>
           </div>
-          <div className="hero-pills">
+          <div className="hero-highlights">
             {siteContent.heroHighlights.map((item) => (
               <span key={item}>{item}</span>
             ))}
@@ -71,14 +72,14 @@ export default function Home() {
         </div>
         <div className="hero-visual reveal delay">
           <img src="/hero-mathor.png" alt="Editorial perfume bottles for Mathor" />
-          <div className="hero-card">
-            <span>Distribution DNA</span>
-            <strong>Kalbar ke Nasional</strong>
+          <div className="image-caption">
+            <span>01</span>
+            <p>Berakar di Kalimantan Barat.<br />Bergerak ke seluruh Indonesia.</p>
           </div>
         </div>
       </section>
 
-      <section className="stats-band" aria-label="Mathor placeholder statistics">
+      <section className="stats-band" aria-label="Mathor statistics">
         {siteContent.stats.map((stat) => (
           <div key={stat.label}>
             <strong>{stat.value}</strong>
@@ -89,8 +90,8 @@ export default function Home() {
 
       <section className="section story" id="story">
         <div>
-          <p className="eyebrow">Brand Story</p>
-          <h2>Dibangun dari rute toko, dirancang untuk pasar nasional.</h2>
+          <p className="eyebrow">Cerita Mathor</p>
+          <h2>Dari hubungan yang nyata, menuju jangkauan yang lebih luas.</h2>
         </div>
         <div className="story-grid">
           <p>
@@ -108,17 +109,15 @@ export default function Home() {
 
       <section className="section" id="collections">
         <div className="section-heading">
-          <p className="eyebrow">Collections</p>
-          <h2>Dummy product yang siap diganti dari content layer.</h2>
-          <p>
-            Nama, harga, notes, tag, dan karakter aroma berada di satu file data.
-            Ini membuat katalog mudah diperbarui saat produk final tersedia.
-          </p>
+          <p className="eyebrow">Koleksi</p>
+          <h2>Temukan aroma untuk setiap sisi dirimu.</h2>
+          <p>Tiga arah aroma sebagai gambaran koleksi Mathor: segar, hangat, dan lembut.</p>
         </div>
         <div className="product-grid">
           {siteContent.products.map((product) => (
             <article className="product-card" key={product.name}>
               <div className="product-bottle" style={{ "--accent": product.color } as CSSProperties}>
+                <small>M / {product.tag}</small>
                 <span>{product.name.split(" ")[0]}</span>
               </div>
               <div className="product-meta">
@@ -141,8 +140,8 @@ export default function Home() {
 
       <section className="section why" id="why">
         <div className="section-heading">
-          <p className="eyebrow">Why Mathor</p>
-          <h2>Premium yang tetap mudah didekati.</h2>
+          <p className="eyebrow">Mengapa Mathor</p>
+          <h2>Dibuat untuk dipakai. Dibangun untuk bertumbuh.</h2>
         </div>
         <div className="value-grid">
           {siteContent.valueProps.map((item, index) => (
@@ -157,8 +156,8 @@ export default function Home() {
 
       <section className="route-story">
         <div className="route-copy">
-          <p className="eyebrow">Offline to Online</p>
-          <h2>Sistem lama tetap hidup, kanal baru membuka skala.</h2>
+          <p className="eyebrow">Perjalanan distribusi</p>
+          <h2>Dekat secara offline, mudah dijangkau secara online.</h2>
           <p>
             Distribusi langsung memberi Mathor pemahaman tentang toko, stok, dan
             pembeli lokal. Kanal online memperluas pasar tanpa menghapus sentuhan
@@ -176,15 +175,15 @@ export default function Home() {
 
       <section className="section" id="services">
         <div className="section-heading">
-          <p className="eyebrow">Services</p>
-          <h2>Empat pintu masuk untuk calon pelanggan dan partner.</h2>
+          <p className="eyebrow">Layanan</p>
+          <h2>Satu rumah parfum, empat cara untuk bekerja bersama.</h2>
         </div>
         <div className="service-grid">
           {siteContent.services.map((service) => (
             <article className="service-card" key={service.title}>
-              <h3>{service.title}</h3>
-              <p>{service.text}</p>
-              <a href={service.title === "Personal" ? brand.shopeeUrl : brand.whatsappUrl}>{service.cta}</a>
+              <span className="service-index">{String(siteContent.services.indexOf(service) + 1).padStart(2, "0")}</span>
+              <div><h3>{service.title}</h3><p>{service.text}</p></div>
+              <a href={service.title === "Personal" ? brand.shopeeUrl : brand.whatsappUrl}>{service.cta} <span aria-hidden="true">↗</span></a>
             </article>
           ))}
         </div>
@@ -193,11 +192,11 @@ export default function Home() {
       <section className="b2b" id="b2b">
         <div>
           <p className="eyebrow">B2B / Maklon</p>
-          <h2>Ruang awal untuk brand yang ingin mengembangkan parfum sendiri.</h2>
+          <h2>Wujudkan identitas brand dalam sebuah aroma.</h2>
           <p>
-            Bagian ini sengaja dibuat fleksibel karena detail maklon belum final.
-            Nanti bisa ditambah paket, MOQ, pilihan botol, timeline produksi,
-            sertifikasi, dan alur sampling tanpa mengubah desain utama.
+            Konsultasikan arah aroma dan kebutuhan produk untuk brand Anda.
+            Detail paket, minimum order, pilihan botol, dan alur sampling akan
+            disesuaikan melalui diskusi awal bersama tim Mathor.
           </p>
         </div>
         <a className="button primary" href={brand.whatsappUrl}>
@@ -207,8 +206,8 @@ export default function Home() {
 
       <section className="section testimonials" id="testimonials">
         <div className="section-heading">
-          <p className="eyebrow">Testimonials</p>
-          <h2>Placeholder social proof untuk fase awal landing page.</h2>
+          <p className="eyebrow">Cerita pelanggan</p>
+          <h2>Kepercayaan dibangun dari layanan yang konsisten.</h2>
         </div>
         <div className="testimonial-grid">
           {siteContent.testimonials.map((testimonial) => (
@@ -225,8 +224,8 @@ export default function Home() {
 
       <section className="section faq" id="faq">
         <div className="section-heading">
-          <p className="eyebrow">FAQ</p>
-          <h2>Pertanyaan yang paling mungkin muncul sebelum chat.</h2>
+          <p className="eyebrow">Pertanyaan umum</p>
+          <h2>Sebelum memilih aroma atau memulai kerja sama.</h2>
         </div>
         <div className="faq-list">
           {siteContent.faqs.map((faq, index) => (
@@ -244,7 +243,7 @@ export default function Home() {
       </section>
 
       <section className="final-cta">
-        <p className="eyebrow">Ready to scent the next step</p>
+        <p className="eyebrow">Mulai bersama Mathor</p>
         <h2>Mulai dari satu botol, satu toko, atau satu brief maklon.</h2>
         <div className="hero-actions">
           <a className="button primary" href={brand.shopeeUrl}>

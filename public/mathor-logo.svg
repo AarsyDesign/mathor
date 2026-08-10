@@ -1,21 +1,9 @@
-<svg width="620" height="132" viewBox="0 0 620 132" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Mathor</title>
-  <desc id="desc">Elegant Mathor perfume wordmark with gold divider</desc>
-  <defs>
-    <linearGradient id="gold" x1="34" y1="22" x2="545" y2="108" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#F9E8C0"/>
-      <stop offset="0.42" stop-color="#C9933C"/>
-      <stop offset="0.7" stop-color="#FFF2CC"/>
-      <stop offset="1" stop-color="#A96E27"/>
-    </linearGradient>
-    <filter id="softShadow" x="-10%" y="-20%" width="120%" height="150%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="1" stdDeviation="0.9" flood-color="#15120F" flood-opacity="0.24"/>
-    </filter>
-  </defs>
-  <g filter="url(#softShadow)">
-    <text x="26" y="72" fill="url(#gold)" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="600" letter-spacing="13">MATHOR</text>
-    <path d="M34 95H256" stroke="url(#gold)" stroke-width="2.4" stroke-linecap="round"/>
-    <path d="M284 95H506" stroke="url(#gold)" stroke-width="2.4" stroke-linecap="round"/>
-    <path d="M270 95L281 84L292 95L281 106L270 95Z" fill="url(#gold)"/>
-  </g>
+<svg width="640" height="144" viewBox="0 0 640 144" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mathor Fragrance House</title>
+  <desc id="desc">Mathor monogram and wordmark on a transparent background</desc>
+  <rect x="8" y="8" width="128" height="128" stroke="#A87938" stroke-width="2"/>
+  <text x="72" y="99" text-anchor="middle" fill="#A87938" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="400">M</text>
+  <text x="170" y="78" fill="#191815" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="400" letter-spacing="12">MATHOR</text>
+  <line x1="172" y1="96" x2="590" y2="96" stroke="#A87938" stroke-width="1"/>
+  <text x="174" y="121" fill="#626A54" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="6">FRAGRANCE HOUSE</text>
 </svg>

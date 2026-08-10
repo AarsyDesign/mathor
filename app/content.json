@@ -103,7 +103,7 @@
   ],
   "testimonials": [
     {
-      "quote": "Produk dummy ini mudah ditawarkan karena pilihan aromanya familiar, tapi kemasannya tetap terasa premium.",
+      "quote": "Pilihan aromanya mudah dikenali pelanggan, sementara presentasinya tetap terasa premium.",
       "name": "Rani",
       "role": "Retail partner, Pontianak"
     },
@@ -121,11 +121,11 @@
   "faqs": [
     {
       "question": "Apakah produk Mathor original fragrance atau inspired?",
-      "answer": "Placeholder saat ini diarahkan ke original fragrance dan custom fragrance. Detail formula, legalitas, dan klaim produk bisa diganti setelah data final tersedia."
+      "answer": "Mathor berfokus pada original fragrance dan custom fragrance. Detail formula dan informasi produk tersedia melalui konsultasi dengan tim Mathor."
     },
     {
       "question": "Bagaimana cara beli produk Mathor?",
-      "answer": "CTA utama tersedia untuk Shopee dan WhatsApp. Link bisa diganti dari file content tanpa mengubah struktur halaman."
+      "answer": "Produk dapat dibeli melalui toko resmi Mathor di Shopee atau dengan menghubungi tim melalui WhatsApp."
     },
     {
       "question": "Apakah Mathor menerima reseller dan retail?",
@@ -133,7 +133,7 @@
     },
     {
       "question": "Apa detail layanan maklon Mathor?",
-      "answer": "Untuk saat ini ditampilkan sebagai layanan B2B awal. Paket, minimum order, timeline produksi, pilihan botol, dan alur sampling dapat ditambahkan setelah final."
+      "answer": "Layanan B2B dimulai dari konsultasi kebutuhan. Paket, minimum order, pilihan botol, timeline produksi, dan alur sampling akan disesuaikan dengan brief brand."
     }
   ]
 }
