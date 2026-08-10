@@ -70,7 +70,7 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-visual reveal delay">
-          <img src="/og.png" alt="Mathor perfume editorial preview" />
+          <img src="/hero-mathor.png" alt="Editorial perfume bottles for Mathor" />
           <div className="hero-card">
             <span>Distribution DNA</span>
             <strong>Kalbar ke Nasional</strong>

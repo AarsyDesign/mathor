@@ -1,13 +1,13 @@
-<svg width="520" height="148" viewBox="0 0 520 148" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="520" height="148" rx="18" fill="#FFF7EA"/>
-  <circle cx="72" cy="74" r="43" fill="#201B17"/>
-  <path d="M50 98V49H61L73 79L85 49H96V98H86V68L76 93H70L60 68V98H50Z" fill="#F2D39B"/>
-  <path d="M30 74H16M128 74H114" stroke="#C9933C" stroke-width="3" stroke-linecap="round"/>
-  <path d="M72 25V11M72 137V123" stroke="#C9933C" stroke-width="3" stroke-linecap="round"/>
-  <path d="M72 15L76 23L72 31L68 23L72 15Z" fill="#C9933C"/>
-  <path d="M72 117L76 125L72 133L68 125L72 117Z" fill="#C9933C"/>
-  <text x="145" y="78" fill="#201B17" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="600" letter-spacing="8">MATHOR</text>
-  <path d="M148 98H445" stroke="#C9933C" stroke-width="2"/>
-  <path d="M466 98L474 90L482 98L474 106L466 98Z" fill="#C9933C"/>
-  <text x="148" y="124" fill="#766A5C" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">PONTIANAK FRAGRANCE HOUSE</text>
+<svg width="560" height="132" viewBox="0 0 560 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="66" cy="66" r="48" fill="#201B17"/>
+  <circle cx="66" cy="66" r="42" stroke="#C9933C" stroke-width="2"/>
+  <path d="M42 92V39H54L66 69L78 39H90V92H79V63L69 87H63L53 63V92H42Z" fill="#F7F0E4"/>
+  <path d="M25 66H12M120 66H107" stroke="#C9933C" stroke-width="3" stroke-linecap="round"/>
+  <path d="M66 24V11M66 121V108" stroke="#C9933C" stroke-width="3" stroke-linecap="round"/>
+  <path d="M66 14L70 22L66 30L62 22L66 14Z" fill="#C9933C"/>
+  <path d="M66 102L70 110L66 118L62 110L66 102Z" fill="#C9933C"/>
+  <text x="138" y="72" fill="#201B17" font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="600" letter-spacing="7">MATHOR</text>
+  <path d="M141 91H428" stroke="#C9933C" stroke-width="2"/>
+  <path d="M446 91L454 83L462 91L454 99L446 91Z" fill="#C9933C"/>
+  <text x="140" y="116" fill="#766A5C" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3">PONTIANAK FRAGRANCE HOUSE</text>
 </svg>
