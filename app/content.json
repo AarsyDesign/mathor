@@ -14,7 +14,7 @@
     { "label": "Story", "href": "#story" },
     { "label": "Koleksi", "href": "#collections" },
     { "label": "Layanan", "href": "#services" },
-    { "label": "Maklon", "href": "#b2b" },
+    { "label": "B2B", "href": "#b2b" },
     { "label": "FAQ", "href": "#faq" }
   ],
   "stats": [
@@ -24,9 +24,9 @@
     { "value": "4", "label": "jalur layanan" }
   ],
   "heroHighlights": [
-    "Original fragrance",
-    "Custom fragrance",
-    "Retail supply",
+    "Inspired fragrance",
+    "Parfum spray & oles",
+    "Retail & reseller",
     "Online nasional"
   ],
   "collectionCta": {
@@ -37,32 +37,32 @@
   "products": [
     {
       "name": "Aurora Citrus",
-      "type": "Fresh Aromatic",
+      "type": "Inspired Fragrance Spray · Fresh Aromatic",
       "price": "Mulai Rp89.000",
       "size": "30 ml / 50 ml",
       "notes": ["Bergamot", "Green Tea", "White Musk"],
       "mood": "Clean, energetic, daily wear",
-      "tag": "Best Seller",
+      "tag": "Inspired Spray",
       "color": "#D9A441"
     },
     {
       "name": "Noir Ember",
-      "type": "Warm Woody",
+      "type": "Perfume Oil · Warm Woody",
       "price": "Mulai Rp129.000",
-      "size": "50 ml",
+      "size": "Parfum oles",
       "notes": ["Pink Pepper", "Amber", "Sandalwood"],
       "mood": "Confident, evening, premium",
-      "tag": "Premium Pick",
+      "tag": "Perfume Oil",
       "color": "#7E3F2E"
     },
     {
       "name": "Velvet Rain",
-      "type": "Soft Floral",
+      "type": "Pocket Fragrance · Soft Floral",
       "price": "Mulai Rp99.000",
-      "size": "30 ml / 50 ml",
+      "size": "Ukuran praktis",
       "notes": ["Pear", "Jasmine", "Cashmere"],
       "mood": "Soft, elegant, versatile",
-      "tag": "Unisex",
+      "tag": "Pocket Fragrance",
       "color": "#9FB09D"
     }
   ],
@@ -80,30 +80,30 @@
       "text": "Pembeli personal, reseller, dan retail bisa masuk lewat jalur yang sesuai: Shopee, WhatsApp, atau supply berkala."
     },
     {
-      "title": "Custom fragrance fleksibel",
-      "text": "Pilihan aroma bisa diarahkan untuk kebutuhan personal, brand retail, atau pengembangan produk maklon."
+      "title": "Pilihan aroma dan intensitas",
+      "text": "Tersedia dalam pilihan spray, parfum oles, dan varian ringan untuk kebutuhan serta rentang harga yang berbeda."
     }
   ],
   "services": [
     {
       "title": "Personal",
-      "text": "Koleksi parfum harian untuk pria dan wanita usia 17-45 dengan karakter fresh, floral, woody, dan premium.",
+      "text": "Pilihan inspired fragrance dalam format spray, parfum oles, dan pocket fragrance untuk penggunaan harian.",
       "cta": "Belanja di Shopee"
     },
     {
       "title": "Retail",
-      "text": "Pilihan produk untuk toko yang membutuhkan suplai berkala, display siap jual, dan variasi aroma yang mudah diputar.",
+      "text": "Suplai berkala untuk toko dengan pilihan aroma, ukuran, dan tingkat harga yang mudah disesuaikan dengan karakter pelanggan.",
       "cta": "Chat kebutuhan toko"
     },
     {
       "title": "Reseller",
-      "text": "Peluang jual ulang untuk partner yang ingin memulai penjualan parfum dengan katalog awal yang fleksibel.",
+      "text": "Produk siap jual dengan pilihan kategori dan harga yang memungkinkan reseller memulai dari katalog yang lebih fleksibel.",
       "cta": "Minta pricelist"
     },
     {
       "title": "B2B",
-      "text": "Dukungan awal untuk kebutuhan maklon dan pengembangan parfum brand sendiri. Detail dapat disesuaikan lewat konsultasi.",
-      "cta": "Diskusi maklon"
+      "text": "Pilihan konsentrasi parfum untuk produk yang akan menggunakan brand atau merek dagang milik Anda.",
+      "cta": "Diskusi B2B"
     }
   ],
   "testimonials": [
@@ -125,8 +125,8 @@
   ],
   "faqs": [
     {
-      "question": "Apakah produk Mathor original fragrance atau inspired?",
-      "answer": "Mathor berfokus pada original fragrance dan custom fragrance. Detail formula dan informasi produk tersedia melalui konsultasi dengan tim Mathor."
+      "question": "Apa jenis produk yang tersedia di Mathor?",
+      "answer": "Mathor menghadirkan inspired fragrance dalam format spray, perfume oil atau parfum oles, dan pocket fragrance."
     },
     {
       "question": "Bagaimana cara beli produk Mathor?",
@@ -137,8 +137,12 @@
       "answer": "Ya. Halaman ini menyediakan jalur personal, retail, reseller, dan B2B agar tiap calon partner bisa memilih kontak yang sesuai."
     },
     {
-      "question": "Apa detail layanan maklon Mathor?",
-      "answer": "Layanan B2B dimulai dari konsultasi kebutuhan. Paket, minimum order, pilihan botol, timeline produksi, dan alur sampling akan disesuaikan dengan brief brand."
+      "question": "Apa perbedaan parfum spray, parfum oles, dan pocket fragrance?",
+      "answer": "Parfum spray digunakan dengan cara disemprotkan, parfum oles diaplikasikan langsung pada titik tertentu, sedangkan pocket fragrance hadir dalam ukuran praktis dengan karakter lebih ringan untuk penggunaan harian."
+    },
+    {
+      "question": "Apa layanan B2B Mathor?",
+      "answer": "Mathor menyediakan pilihan konsentrasi parfum untuk produk yang menggunakan brand atau merek dagang pelanggan. Detail kebutuhan dibahas langsung melalui konsultasi."
     }
   ]
 }

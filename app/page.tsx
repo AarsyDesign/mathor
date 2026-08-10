@@ -119,7 +119,7 @@ export default function Home() {
         <div className="hero-copy reveal">
           <p className="eyebrow">Fragrance house / {brand.location}</p>
           <h1>Aroma yang tumbuh bersama langkahmu.</h1>
-          <p className="tagline">Original dan custom fragrance dari Pontianak.</p>
+          <p className="tagline">Racikan aroma pilihan dari Pontianak, untuk setiap langkahmu.</p>
           <p className="hero-text">{brand.summary}</p>
           <div className="hero-actions">
             <a className="button primary" href={brand.shopeeUrl}>
@@ -176,7 +176,7 @@ export default function Home() {
         <div className="section-heading">
           <p className="eyebrow">Koleksi</p>
           <h2>Temukan aroma untuk setiap sisi dirimu.</h2>
-          <p>Tiga arah aroma sebagai gambaran koleksi Mathor: segar, hangat, dan lembut.</p>
+          <p>Tiga format untuk kebutuhan yang berbeda: inspired fragrance spray, perfume oil, dan pocket fragrance.</p>
         </div>
         <div className="product-grid">
           {siteContent.products.map((product) => (
@@ -278,16 +278,16 @@ export default function Home() {
 
       <section className="b2b" id="b2b">
         <div>
-          <p className="eyebrow">B2B / Maklon</p>
-          <h2>Wujudkan identitas brand dalam sebuah aroma.</h2>
+          <p className="eyebrow">B2B / Private Label</p>
+          <h2>Hadirkan produk parfum dengan identitas brand Anda.</h2>
           <p>
-            Konsultasikan arah aroma dan kebutuhan produk untuk brand Anda.
-            Detail paket, minimum order, pilihan botol, dan alur sampling akan
-            disesuaikan melalui diskusi awal bersama tim Mathor.
+            Pilih konsentrasi yang tersedia, lalu hadirkan produk menggunakan
+            brand atau merek dagang Anda. Detail kebutuhan dibahas langsung
+            bersama tim Mathor.
           </p>
         </div>
         <a className="button primary" href={brand.whatsappUrl}>
-          Diskusi Maklon
+          Diskusi B2B
         </a>
       </section>
 
@@ -331,7 +331,7 @@ export default function Home() {
 
       <section className="final-cta">
         <p className="eyebrow">Mulai bersama Mathor</p>
-        <h2>Mulai dari satu botol, satu toko, atau satu brief maklon.</h2>
+        <h2>Mulai dari satu botol, satu toko, atau satu brand.</h2>
         <div className="hero-actions">
           <a className="button primary" href={brand.shopeeUrl}>
             Ke Shopee Mathor
