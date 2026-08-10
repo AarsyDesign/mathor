@@ -64,18 +64,18 @@ main {
 .logo {
   display: inline-flex;
   align-items: center;
-  width: clamp(154px, 17vw, 214px);
-  min-width: 126px;
+  width: clamp(150px, 16vw, 216px);
+  min-width: 128px;
 }
 
 .logo img {
   width: 100%;
   height: auto;
-  aspect-ratio: 2.62 / 1;
-  object-fit: cover;
+  aspect-ratio: 4.7 / 1;
+  object-fit: contain;
   object-position: left center;
-  border-radius: 6px;
-  background: var(--charcoal);
+  border-radius: 0;
+  background: transparent;
 }
 
 .nav {
@@ -654,8 +654,8 @@ footer p {
 }
 
 footer .logo {
-  border-radius: 8px;
-  background: #15120f;
+  border-radius: 0;
+  background: transparent;
 }
 
 .footer-links {
@@ -786,8 +786,8 @@ footer .logo {
   }
 
   .logo {
-    width: 132px;
-    min-width: 112px;
+    width: 130px;
+    min-width: 108px;
   }
 
   h1 {

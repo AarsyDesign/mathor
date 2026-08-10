@@ -9,7 +9,7 @@ const { brand } = siteContent;
 function Logo() {
   return (
     <a className="logo" href="#top" aria-label="Mathor home">
-      <img src="/mathor-logo.png" alt="Mathor" />
+      <img src="/mathor-logo.svg" alt="Mathor" />
     </a>
   );
 }
