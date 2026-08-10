@@ -64,43 +64,14 @@ main {
 .logo {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  min-width: 0;
+  width: clamp(158px, 18vw, 218px);
+  min-width: 132px;
 }
 
-.logo-mark {
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  color: var(--paper);
-  background: linear-gradient(135deg, var(--charcoal), #59372a 58%, var(--amber));
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 50%;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.logo-text {
-  display: grid;
-  line-height: 1;
-}
-
-.logo-text span {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 25px;
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
-.logo-text small {
-  margin-top: 5px;
-  color: var(--muted);
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.logo img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
 }
 
 .nav {
@@ -192,13 +163,21 @@ main {
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(320px, 1.08fr);
-  gap: clamp(24px, 5vw, 72px);
+  gap: clamp(28px, 5vw, 72px);
   align-items: center;
   min-height: calc(100vh - 80px);
   padding: 58px clamp(18px, 5vw, 72px) 38px;
   background:
     radial-gradient(circle at 18% 8%, rgba(201, 147, 60, 0.18), transparent 34%),
     linear-gradient(135deg, #fffaf1 0%, #efe3cf 48%, #d6c2a5 100%);
+}
+
+.hero-copy,
+.hero-visual,
+.section-heading,
+.route-copy,
+.b2b div {
+  min-width: 0;
 }
 
 .eyebrow {
@@ -286,6 +265,8 @@ h3 {
 
 .hero-visual {
   position: relative;
+  max-width: 760px;
+  justify-self: end;
 }
 
 .hero-visual img {
@@ -352,7 +333,7 @@ h3 {
 .b2b,
 .final-cta,
 footer {
-  padding: clamp(64px, 8vw, 118px) clamp(18px, 5vw, 72px);
+  padding: clamp(58px, 7vw, 104px) clamp(18px, 5vw, 72px);
 }
 
 .story {
@@ -370,7 +351,7 @@ footer {
 
 .section-heading {
   max-width: 850px;
-  margin-bottom: 34px;
+  margin-bottom: clamp(24px, 3vw, 34px);
 }
 
 .product-grid,
@@ -379,7 +360,7 @@ footer {
 .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 18px;
+  gap: clamp(16px, 2vw, 22px);
 }
 
 .product-card,
@@ -666,6 +647,12 @@ footer p {
   color: rgba(255, 250, 241, 0.64);
 }
 
+footer .logo {
+  padding: 4px;
+  border-radius: 8px;
+  background: rgba(255, 247, 234, 0.94);
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
@@ -763,6 +750,13 @@ footer p {
 
   .hero {
     min-height: auto;
+    padding-top: 42px;
+  }
+
+  .hero-visual {
+    width: 100%;
+    max-width: 720px;
+    justify-self: start;
   }
 
   .stats-band,
@@ -786,12 +780,57 @@ footer p {
     padding: 14px 16px;
   }
 
-  .logo-text small {
-    display: none;
+  .logo {
+    width: 138px;
+    min-width: 118px;
   }
 
   h1 {
-    font-size: clamp(58px, 22vw, 88px);
+    font-size: clamp(52px, 17vw, 68px);
+    line-height: 0.86;
+  }
+
+  h2 {
+    font-size: clamp(34px, 11vw, 48px);
+    line-height: 1;
+  }
+
+  .hero {
+    gap: 24px;
+    padding: 34px 18px 30px;
+  }
+
+  .hero-text,
+  .section-heading p,
+  .route-copy p,
+  .story-grid p,
+  .b2b p {
+    font-size: 15px;
+    line-height: 1.62;
+  }
+
+  .hero-actions,
+  .hero-pills {
+    width: 100%;
+  }
+
+  .hero-pills {
+    margin-top: 18px;
+  }
+
+  .hero-pills span {
+    flex: 1 1 calc(50% - 6px);
+    text-align: center;
+  }
+
+  .hero-visual {
+    max-width: 100%;
+  }
+
+  .hero-visual img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-position: 64% center;
   }
 
   .stats-band,
@@ -828,6 +867,23 @@ footer p {
   }
 
   .button {
+    max-width: 100%;
     width: 100%;
+  }
+
+  .section,
+  .route-story,
+  .b2b,
+  .final-cta,
+  footer {
+    padding: 52px 18px;
+  }
+
+  .product-card {
+    grid-template-rows: 210px auto;
+  }
+
+  .product-bottle {
+    min-height: 210px;
   }
 }
