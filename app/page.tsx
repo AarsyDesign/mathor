@@ -1,6 +1,5 @@
 "use client";
 
-import type { CSSProperties } from "react";
 import { useEffect, useRef, useState } from "react";
 import { siteContent } from "./content";
 
@@ -77,6 +76,7 @@ function StatCounter({ value, index }: { value: string; index: number }) {
 }
 
 export default function Home() {
+  const headerRef = useRef<HTMLElement>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
   const [activeRoute, setActiveRoute] = useState(0);
@@ -87,11 +87,33 @@ export default function Home() {
     setRoutePulse((value) => value + 1);
   };
 
+  useEffect(() => {
+    if (!menuOpen) return;
+
+    const closeMenu = () => setMenuOpen(false);
+    const closeFromOutside = (event: PointerEvent) => {
+      if (!headerRef.current?.contains(event.target as Node)) closeMenu();
+    };
+    const closeFromKeyboard = (event: KeyboardEvent) => {
+      if (event.key === "Escape") closeMenu();
+    };
+
+    window.addEventListener("scroll", closeMenu, { passive: true });
+    document.addEventListener("pointerdown", closeFromOutside);
+    document.addEventListener("keydown", closeFromKeyboard);
+
+    return () => {
+      window.removeEventListener("scroll", closeMenu);
+      document.removeEventListener("pointerdown", closeFromOutside);
+      document.removeEventListener("keydown", closeFromKeyboard);
+    };
+  }, [menuOpen]);
+
   return (
     <main id="top">
-      <header className="site-header">
+      <header className="site-header" ref={headerRef}>
         <Logo />
-        <nav className={menuOpen ? "nav nav-open" : "nav"} aria-label="Main navigation">
+        <nav id="main-navigation" className={menuOpen ? "nav nav-open" : "nav"} aria-label="Main navigation">
           {siteContent.navigation.map((item) => (
             <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
               {item.label}
@@ -106,6 +128,7 @@ export default function Home() {
             className="menu-button"
             type="button"
             aria-expanded={menuOpen}
+            aria-controls="main-navigation"
             aria-label="Toggle navigation"
             onClick={() => setMenuOpen((value) => !value)}
           >
@@ -181,9 +204,9 @@ export default function Home() {
         <div className="product-grid">
           {siteContent.products.map((product) => (
             <article className="product-card" key={product.name}>
-              <div className="product-bottle" style={{ "--accent": product.color } as CSSProperties}>
+              <div className="product-media">
+                <img src={product.image} alt={`${product.name}, ${product.type}`} />
                 <small>M / {product.tag}</small>
-                <span>{product.name.split(" ")[0]}</span>
               </div>
               <div className="product-meta">
                 <span className="product-tag">{product.tag}</span>
@@ -354,7 +377,8 @@ export default function Home() {
       </footer>
 
       <a className="floating-whatsapp" href={brand.whatsappUrl} aria-label="Chat Mathor on WhatsApp">
-        WA
+        <span className="whatsapp-mark" aria-hidden="true">WA</span>
+        <span>WhatsApp</span>
       </a>
     </main>
   );

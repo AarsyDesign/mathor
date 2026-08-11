@@ -43,6 +43,7 @@
       "notes": ["Bergamot", "Green Tea", "White Musk"],
       "mood": "Clean, energetic, daily wear",
       "tag": "Inspired Spray",
+      "image": "/product-inspired-spray.png",
       "color": "#D9A441"
     },
     {
@@ -53,6 +54,7 @@
       "notes": ["Pink Pepper", "Amber", "Sandalwood"],
       "mood": "Confident, evening, premium",
       "tag": "Perfume Oil",
+      "image": "/product-perfume-oil.png",
       "color": "#7E3F2E"
     },
     {
@@ -63,6 +65,7 @@
       "notes": ["Pear", "Jasmine", "Cashmere"],
       "mood": "Soft, elegant, versatile",
       "tag": "Pocket Fragrance",
+      "image": "/product-pocket-fragrance.png",
       "color": "#9FB09D"
     }
   ],
