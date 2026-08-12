@@ -8,7 +8,28 @@ const { brand } = siteContent;
 function Logo() {
   return (
     <a className="brandmark" href="#top" aria-label="Mathor home">
-      <span className="brandmark-symbol" aria-hidden="true">M</span>
+      <span className="brandmark-symbol" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="38" height="38">
+          <defs>
+            <linearGradient id="brassGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stopColor="#A87938"/>
+              <stop offset="50%" stopColor="#C69B5F"/>
+              <stop offset="100%" stopColor="#A87938"/>
+            </linearGradient>
+          </defs>
+          <path d="M24 4 L24 16" stroke="url(#brassGrad)" strokeWidth="1.5" strokeLinecap="round"/>
+          <ellipse cx="24" cy="20" rx="10" ry="3" stroke="url(#brassGrad)" strokeWidth="1.5" fill="none"/>
+          <path d="M14 20 Q14 14 18 11 Q24 6 30 11 Q34 14 34 20" stroke="url(#brassGrad)" strokeWidth="1.5" fill="none"/>
+          <path d="M18 20 L18 36 Q24 42 30 36 L30 20" stroke="url(#brassGrad)" strokeWidth="1.5" fill="none"/>
+          <path d="M24 36 L24 44" stroke="url(#brassGrad)" strokeWidth="1.5" strokeLinecap="round"/>
+          <circle cx="24" cy="32" r="2" fill="url(#brassGrad)"/>
+          <path d="M8 30 Q16 26 24 30 Q32 26 40 30" stroke="url(#brassGrad)" strokeWidth="1" strokeDasharray="3 3" opacity="0.5"/>
+          <circle cx="12" cy="12" r="1.5" fill="url(#brassGrad)" opacity="0.6"/>
+          <circle cx="36" cy="38" r="1" fill="url(#brassGrad)" opacity="0.5"/>
+          <circle cx="10" cy="40" r="0.8" fill="url(#brassGrad)" opacity="0.4"/>
+          <circle cx="42" cy="10" r="1.2" fill="url(#brassGrad)" opacity="0.5"/>
+        </svg>
+      </span>
       <span className="brandmark-copy">
         <strong>MATHOR</strong>
         <small>Fragrance House</small>
