@@ -3,10 +3,13 @@
   "name": "mathor",
   "compatibility_date": "2026-08-11",
   "compatibility_flags": ["nodejs_compat"],
+  "main": "./worker/index.ts",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "not_found_handling": "single-page-application"
+    "directory": "dist/client",
+    "not_found_handling": "none",
+    "binding": "ASSETS"
   }
 }
