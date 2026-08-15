@@ -1,0 +1,2218 @@
+{
+  "settings": {
+    "priceFallback": "Harga via WhatsApp",
+    "whatsappMessage": "Halo Mathor, saya ingin menanyakan aroma {name}."
+  },
+  "aromas": [
+    {
+      "id": "ARM-0001",
+      "name": "1.000 Bunga",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bergamot, Green Notes",
+        "heart": "Jasmine, Rose, Ylang-Ylang, Tuberose",
+        "base": "White Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0002",
+      "name": "2.000 Bunga",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Citrus Zest, Lilac",
+        "heart": "Jasmine, Lily of the Valley, Rose, Orange Blossom",
+        "base": "Musk, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0003",
+      "name": "212",
+      "category": "Segar & Bersih",
+      "impression": "Herbal, segar, dinamis",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Green Notes, Grapefruit, Spices, Bergamot",
+        "heart": "Ginger, Violet, Gardenia, Sage",
+        "base": "Musk, Sandalwood, Incense, Vetiver"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0004",
+      "name": "Adidas",
+      "category": "Segar & Bersih",
+      "impression": "Herbal, segar, dinamis",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Mint, Anise, Cedar Needles, Bergamot",
+        "heart": "Lavender, Cucumber",
+        "base": "Musks, Patchouli, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0005",
+      "name": "Aigner Black",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Bergamot, Grapefruit, Orange",
+        "heart": "Mint, Pine Tree, Oakmoss",
+        "base": "Leather, Tonka Bean, Musk, Styrax"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0006",
+      "name": "Aigner Blue",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Lemon, Bergamot, Mandarin Orange",
+        "heart": "Violet Leaf, Coriander, Cardamom",
+        "base": "Cedarwood, Amber, Leather"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0007",
+      "name": "Al-Khanjar",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Spices, Saffron, Bergamot",
+        "heart": "Amber, Rose, Geranium",
+        "base": "Oud, Sandalwood, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0008",
+      "name": "Always Mad",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Pink Pepper, Red Berries",
+        "heart": "Rose, Peony",
+        "base": "Vanilla, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0009",
+      "name": "Amber Oud",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Bergamot, Green Leaves",
+        "heart": "Melon, Pineapple, Amber, Sweet Notes",
+        "base": "Woody Notes, Vanilla, Musk, Oud"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0010",
+      "name": "Angel Heart",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Grapefruit, Apricot, Blackcurrant",
+        "heart": "Lily of the Valley, Rose, Freesia",
+        "base": "White Musk, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0011",
+      "name": "Anna Sui Dream",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Nectarine, Tangerine, Bergamot, Bitter Orange",
+        "heart": "Peony, Freesia, Peach, Rose",
+        "base": "Tahitian Vanilla, Cedarwood, Nutmeg, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0012",
+      "name": "Anna Sui Rose",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bergamot, Raspberry, Water Waterlily",
+        "heart": "Bulgarian Rose, May Rose, Jasmine",
+        "base": "Cedarwood, Musk, Vanilla"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0013",
+      "name": "Antonio Banderas",
+      "category": "Segar & Bersih",
+      "impression": "Herbal, segar, dinamis",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Mint, Bergamot",
+        "heart": "Melon, Cardamom, Nutmeg",
+        "base": "Amber, Oakmoss, Woody Notes"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0014",
+      "name": "Aqua Kiss",
+      "category": "Segar & Bersih",
+      "impression": "Sejuk, ringan, menyegarkan",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Rain Notes, Freesia, Daisy",
+        "heart": "Chamomile, Plum Blossom",
+        "base": "White Musk, Sweet Notes"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0015",
+      "name": "Arabian Musk",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Aldehydes, Lily",
+        "heart": "White Musk, Rose",
+        "base": "Amber, Cedarwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0016",
+      "name": "Arabian Oud",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Saffron, Rose",
+        "heart": "Oud, Patchouli",
+        "base": "Amber, Sandalwood, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0017",
+      "name": "Ariana Candy",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Crispy Pear, Pink Grapefruit, Juicy Raspberry",
+        "heart": "Soft Lily of the Valley, Rose Buds, Vanilla Orchid",
+        "base": "Marshmallow, Creamy Musk, Blonde Woods"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0018",
+      "name": "Avril Lavigne",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Mango, Plum, Dark Chocolate",
+        "heart": "Lotus, Frangipani",
+        "base": "Vanilla, Musk, Woods"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0019",
+      "name": "Axe Africa",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Mandarin, Bergamot",
+        "heart": "Geranium, Spices",
+        "base": "Cedarwood, Amber, Vanilla"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0020",
+      "name": "Axe Coffee",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Coffee Beans, Cardamom",
+        "heart": "Dark Chocolate, Milk",
+        "base": "Vanilla, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0021",
+      "name": "B&B",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Citrus, Apple",
+        "heart": "Jasmine, Peony",
+        "base": "Musk, Sweet Vanilla"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0022",
+      "name": "Baccarat",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Saffron, Jasmine",
+        "heart": "Amberwood, Ambergris",
+        "base": "Fir Resin, Cedarwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0023",
+      "name": "Black Opium",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Pear, Pink Pepper, Orange Blossom",
+        "heart": "Coffee, Jasmine, Bitter Almond, Licorice",
+        "base": "Vanilla, Patchouli, Cedar, Cashmere Wood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0024",
+      "name": "Britney Fantasy",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Kiwi, Red Lychee, Quince",
+        "heart": "White Chocolate, Cupcake, Orchid, Jasmine",
+        "base": "Musk, Orris Root, Woody Notes"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0025",
+      "name": "Bunga Tanjung",
+      "category": "Segar & Bersih",
+      "impression": "Herbal, segar, dinamis",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Herbal Green Notes",
+        "heart": "Bunga Tanjung, Jasmine",
+        "base": "Musk, Light Wood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0026",
+      "name": "Burberry Her",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Strawberry, Raspberry, Blackberry, Sour Cherry, Blackcurrant",
+        "heart": "Jasmine, Violet",
+        "base": "Amber, Musk, Woody Notes, Oakmoss"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0027",
+      "name": "Burberry London",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Rose, Honeysuckle, Tangerine",
+        "heart": "Jasmine, Peony, Tiare Flower, Clementine",
+        "base": "Musk, Patchouli, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0028",
+      "name": "Bvlgari Aqua",
+      "category": "Segar & Bersih",
+      "impression": "Sejuk, ringan, menyegarkan",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Mandarin Orange, Orange, Petitgrain",
+        "heart": "Seaweed, Lavender, Cotton Flower",
+        "base": "Virginia Cedar, Woodsy Notes, Patchouli, Clary Sage, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0029",
+      "name": "Bvlgari Black",
+      "category": "Kayu & Eksotis",
+      "impression": "Kayu, hangat, berkarakter",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Green Tea, Bergamot, Rose",
+        "heart": "Sandalwood, Cedar, Jasmine",
+        "base": "Leather, Vanilla, Amber, Musk, Oakmoss"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0030",
+      "name": "Bvlgari Extreme",
+      "category": "Segar & Bersih",
+      "impression": "Herbal, segar, dinamis",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Darjeeling Tea, Water Waterlily, Bergamot, Lavender",
+        "heart": "Pepper, Cardamom, Guaiac Wood, Rosewood",
+        "base": "Musk, Cedar, Amber, Oakmoss"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0031",
+      "name": "Bvlgari Omnia",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Pink Grapefruit, Green Notes",
+        "heart": "Iris, Bulgarian Rose",
+        "base": "Heliotrope, Woodsy Notes"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0032",
+      "name": "Bvlgari Rose",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Violet, Blackberry, Rose",
+        "heart": "Taif Rose, Jasmine, Mimosa",
+        "base": "Musk, Sandalwood, Guaiac Wood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0033",
+      "name": "Calvin Klein Escape Woman",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Melon, Chamomile, Tagetes, Marigold, Apricot, Hyacinth, Oakmoss, Apple, Mandarin Orange",
+        "heart": "Peach, Lily of the Valley, Carnation, Rose, Jasmine, Clove",
+        "base": "Oakmoss, Amber, Sandalwood, Musk, Vetiver, Vanilla, Cedar"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0034",
+      "name": "Candy Love",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Candy Apple, Mandarin Orange",
+        "heart": "Rose, Whipped Cream",
+        "base": "Vanilla, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0035",
+      "name": "Cherry Blossom",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Cherry, Freesia, Blackcurrant",
+        "heart": "Cherry Blossom, Lily of the Valley",
+        "base": "Rosewood, Amber, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0036",
+      "name": "Cranberry",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Tart Cranberry, Red Currant",
+        "heart": "Strawberry, Plum Blossom",
+        "base": "Sugar, Light Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0037",
+      "name": "Creed Aventus",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Pineapple, Bergamot, Blackcurrant, Apple",
+        "heart": "Birch, Patchouli, Moroccan Jasmine, Rose",
+        "base": "Musk, Oakmoss, Ambergris, Vanille"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0038",
+      "name": "Cuddle",
+      "category": "Kayu & Eksotis",
+      "impression": "Lembut, bersih, intim",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Cotton Flower, Chamomile",
+        "heart": "Soft Lavender, Jasmine",
+        "base": "Powder, White Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0039",
+      "name": "Cussons",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Citrus Zest, Bergamot",
+        "heart": "Baby Powder Accord, Rose, Jasmine",
+        "base": "White Musk, Soft Vanilla"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0040",
+      "name": "D&G",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Neroli, Papaya Flower",
+        "heart": "Water Lily, Amaryllis, Narcissus",
+        "base": "Musk, Cashmeran"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0041",
+      "name": "D&G Light Blue",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Sicilian Lemon, Apple, Cedar, Bellflower",
+        "heart": "Bamboo, Jasmine, White Rose",
+        "base": "Cedar, Musk, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0042",
+      "name": "Dallal",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Citrus, Peach",
+        "heart": "Caramel, Vanilla",
+        "base": "Amber, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0043",
+      "name": "Delina Parfums de Marly",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Lychee, Rhubarb, Bergamot, Nutmeg",
+        "heart": "Turkish Rose, Peony, Musk, Petalia, Vanilla",
+        "base": "Cashmeran, Cedar, Vetiver, Incense"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0044",
+      "name": "Diamor",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bergamot, Sweet Orange",
+        "heart": "Orchid, Rose, Jasmine",
+        "base": "Vanilla, Amber, Patchouli"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0045",
+      "name": "Dior Sauvage",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, rempah, tegas",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Calabrian Bergamot, Pepper",
+        "heart": "Sichuan Pepper, Lavender, Pink Pepper, Vetiver, Patchouli, Geranium, Elemi",
+        "base": "Ambroxan, Cedar, Labdanum"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0046",
+      "name": "Dunhill Blue",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Litchi, Mandarin Orange, Lotus, Bergamot",
+        "heart": "Sea Notes, Orange, Rosewood",
+        "base": "Tonka Bean, Musk, Amber, Benzoin"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0047",
+      "name": "Dunhill London",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Red Apple, Bergamot, Cardamom",
+        "heart": "Rose, Jasmine",
+        "base": "Vanilla, Tonka Bean, Sandalwood, Musks"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0048",
+      "name": "Dunhill Red",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Apple, Lemon, Neroli, Bergamot",
+        "heart": "Rose, Teak Wood, Patchouli",
+        "base": "Vanilla, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0049",
+      "name": "Escada Miami",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Passionfruit, Pineapple, Watermelon",
+        "heart": "Tiare Flower, Orange Blossom, Jasmine",
+        "base": "Coconut, Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0050",
+      "name": "Escada Moon Sparkle",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Strawberry, Blackcurrant, Red Apple, Citrus",
+        "heart": "Sweet Pea, Freesia, Jasmine, Rose",
+        "base": "Raspberry, Musk, Sandalwood, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0051",
+      "name": "Escada Sexy So Much",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Mango, Passionfruit",
+        "heart": "Floral Notes, Peach",
+        "base": "Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0052",
+      "name": "Escada So Sexy",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Clementine, Lotus, Wild Wildflowers",
+        "heart": "Rose, Blackcurrant",
+        "base": "Cedar, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0053",
+      "name": "Giorgio Armani",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Lime, Lemon, Bergamot, Jasmine, Orange, Mandarin Orange, Neroli",
+        "heart": "Sea Notes, Jasmine, Calone, Peach, Freesia, Cyclamen, Hyacinth, Violet, Rose",
+        "base": "White Musk, Cedar, Oakmoss, Patchouli, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0054",
+      "name": "Goes Pink",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Pink Grapefruit, Green Apple",
+        "heart": "Rose, Peony, Freesia",
+        "base": "White Musk, Blond Woods"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0055",
+      "name": "Golden",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bergamot, Pear",
+        "heart": "Honey, Golden Amber, Jasmine",
+        "base": "Vanilla, Cedarwood, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0056",
+      "name": "Good Elixir",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Almond, Coffee, Bergamot, Lemon",
+        "heart": "Tuberose, Jasmine Sambac, Orange Blossom, Orris, Bulgarian Rose",
+        "base": "Tonka Bean, Cacao, Vanilla, Praline, Sandalwood, Amber, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0057",
+      "name": "Green Tea",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Lemon, Bergamot, Mint, Orange Peel, Rhubarb",
+        "heart": "Green Tea, Jasmine, Oakmoss, Fresh Fennel, Carnation",
+        "base": "Jasmine, Oakmoss, Musk, Amber, Celery Seeds"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0058",
+      "name": "Gucci Bloom",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Jasmine",
+        "heart": "Tuberose",
+        "base": "Rangoon Creeper"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0059",
+      "name": "Hajar Aswad",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, rempah, tegas",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Spices, Black Pepper",
+        "heart": "Amber, Rose, Floral Notes",
+        "base": "Oud, Sandalwood, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0060",
+      "name": "Harajuku Love",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bergamot, Pink Pomelo, Peach, Bamboo",
+        "heart": "Peony, Rose, Jasmine, Narcissus",
+        "base": "Vanilla, Musk, Ylang-Ylang, Woodsy Notes"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0061",
+      "name": "Hugo Boss Army",
+      "category": "Segar & Bersih",
+      "impression": "Herbal, segar, dinamis",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Green Apple, Mint, Lavender, Grapefruit",
+        "heart": "Clove, Sage, Geranium",
+        "base": "Pine Tree, Fir, Vetiver, Cedar"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0062",
+      "name": "Hugo Boss For Men",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Apple, Plum, Bergamot, Lemon, Oakmoss, Geranium",
+        "heart": "Cinnamon, Mahogany, Carnation",
+        "base": "Vanilla, Sandalwood, Cedar, Vetiver, Olive Tree"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0063",
+      "name": "Hugo Boss Leather",
+      "category": "Kayu & Eksotis",
+      "impression": "Kayu, hangat, berkarakter",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Lavender, Birch",
+        "heart": "Violet",
+        "base": "Leather, Woody Notes, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0064",
+      "name": "Hugo Boss Orange",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, rempah, tegas",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Red Apple, Coriander",
+        "heart": "Incense, Sichuan Pepper",
+        "base": "Vanilla, Woodsy Notes"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0065",
+      "name": "Hugo Boss XX",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Mandarin Orange, Blueberry, Basmati Rice",
+        "heart": "Jasmine, Rose",
+        "base": "Musk, Sandalwood, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0066",
+      "name": "Incanto Shine",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Pineapple, Passionfruit, Bergamot",
+        "heart": "Peach, Pink Peony, Freesia",
+        "base": "Musk, Cedar, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0067",
+      "name": "JLo Platinum",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Plum, Apple, Guava",
+        "heart": "Jasmine, Peony, Rose",
+        "base": "Amber, Vanilla, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0068",
+      "name": "JLo Still",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Earl Grey Tea, White Pepper, Mandarin Orange, Apple, Rice",
+        "heart": "Jasmine, Lily of the Valley, Freesia, Rose, Orange Blossom",
+        "base": "Pepper, Musk, Sandalwood, Iris, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0069",
+      "name": "Jo Malone",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "King William Pear",
+        "heart": "Freesia",
+        "base": "Patchouli, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0070",
+      "name": "Justin Bieber",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Mandarin Orange, Pear, Wild Berries",
+        "heart": "Jasmine, Water Lily, Floral Notes",
+        "base": "Vanilla, Soft Musk, Woods"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0071",
+      "name": "Kasturi Kijang",
+      "category": "Kayu & Eksotis",
+      "impression": "Lembut, bersih, intim",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Herbal Notes, Animalic Musk",
+        "heart": "Spices, Earthy Notes",
+        "base": "Dark Musk, Amber, Cedarwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0072",
+      "name": "Kasturi Putih",
+      "category": "Kayu & Eksotis",
+      "impression": "Lembut, bersih, intim",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "White Floral, Light Aldehydes",
+        "heart": "Powder, White Musk",
+        "base": "Clean Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0073",
+      "name": "Kenzo Bali",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Passionfruit, Grapefruit",
+        "heart": "Exotic Orchid, Frangipani",
+        "base": "Vanilla, Woody Notes"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0074",
+      "name": "Kenzo Bamboo / Secret Man",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, rempah, tegas",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Bamboo Leaves, Bergamot, Lemon",
+        "heart": "Nutmeg, Clove, Sage",
+        "base": "Sandalwood, Vetiver, Cedar"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0075",
+      "name": "Kenzo Flower",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bulgarian Rose, Hawthorn, Blackcurrant, Mandarin Orange",
+        "heart": "Parma Violet, Rose, Opoponax, Jasmine",
+        "base": "Vanilla, White Musk, Incense"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0076",
+      "name": "Kopi Bali",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Roasted Coffee Beans, Dark Cocoa",
+        "heart": "Condensed Milk, Sugar",
+        "base": "Vanilla, Tonka Bean"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0077",
+      "name": "Lattafa",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Saffron, Nutmeg, Lavender",
+        "heart": "Oud, Patchouli",
+        "base": "Oud, Musk, Patchouli"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0078",
+      "name": "Lovely",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Lavender, Martini, Bergamot, Mandarin Orange, Rosewood",
+        "heart": "Patchouli, Orchid, Narcissus",
+        "base": "Musk, Woodsy Notes, Cedar, White Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0079",
+      "name": "Lux",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Water Fruits, Peach",
+        "heart": "White Rose, Jasmine, Ylang-Ylang",
+        "base": "Musk, Sandalwood, Powder"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0080",
+      "name": "Lychee",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Fresh Lychee, Red Apple",
+        "heart": "Peony, Rose, Peach",
+        "base": "Sugar, White Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0081",
+      "name": "Madinah",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Citrus, Fresh Florals",
+        "heart": "Rose, Jasmine, Orchid",
+        "base": "Sandalwood, White Musk, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0082",
+      "name": "Madhawi",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Peach, Apple Blossom",
+        "heart": "Pineapple Blossom",
+        "base": "Wild Rose, Musk, Patchouli"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0083",
+      "name": "Malaikat Subuh",
+      "category": "Segar & Bersih",
+      "impression": "Segar, bersih, ringan",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Aldehydes, Clean Notes",
+        "heart": "White Floral, Rose, Lily",
+        "base": "Non-alcoholic Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0084",
+      "name": "Mango",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Ripe Mango, Passionfruit",
+        "heart": "Peach, Citrus",
+        "base": "Sugar, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0085",
+      "name": "Marfara",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, rempah, tegas",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Citrus Zest, Spices",
+        "heart": "Patchouli, Floral Notes",
+        "base": "Amber, Sandalwood, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0086",
+      "name": "Marlboro",
+      "category": "Kayu & Eksotis",
+      "impression": "Kayu, hangat, berkarakter",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Tobacco Leaves, Clary Sage",
+        "heart": "Spices, Leather",
+        "base": "Cedarwood, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0087",
+      "name": "Mawar",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Green Rose Petals, Dew Drops",
+        "heart": "Red Rose, Damask Rose",
+        "base": "Rosewood, Soft Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0088",
+      "name": "Melati",
+      "category": "Segar & Bersih",
+      "impression": "Segar, bersih, ringan",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Green Leaf, Fresh Bergamot",
+        "heart": "Jasmine Sambac, Night-Blooming Jasmine",
+        "base": "White Musk, Soft Wood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0089",
+      "name": "Melon",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Sweet Melon, Honeydew",
+        "heart": "Cucumber, Green Apple",
+        "base": "Light Sugar, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0090",
+      "name": "Mercedes-Benz",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Bergamot, Amalfi Lemon, Mandarin Orange",
+        "heart": "Violet, Pepper, Galbanum, Nutmeg",
+        "base": "Virginia Cedar, Vetiver, Patchouli"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0091",
+      "name": "Mercedes-Benz Black Fan",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Sun-ripened Bergamot, Neroli",
+        "heart": "Galbanum, Pink Pepper, Frankincense",
+        "base": "Cedarwood, Amber, Patchouli"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0092",
+      "name": "Mermaid Fantasy",
+      "category": "Segar & Bersih",
+      "impression": "Sejuk, ringan, menyegarkan",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Sea Salt, Melon, Green Apple",
+        "heart": "Water Lily, Peony",
+        "base": "Driftwood, White Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0093",
+      "name": "Midnight Fantasy",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Plum, Sour Cherry, Raspberry",
+        "heart": "Orchid, Iris, Freesia",
+        "base": "Vanilla, Amber, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0094",
+      "name": "Misik Putih",
+      "category": "Kayu & Eksotis",
+      "impression": "Lembut, bersih, intim",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Aldehydic Notes, White Lily",
+        "heart": "White Musk, Cotton Accord",
+        "base": "Soft Powder, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0095",
+      "name": "Musk Mekkah",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Herbal Spices, Citrus",
+        "heart": "Taif Rose, Heavy Musk",
+        "base": "Agarwood, Amber, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0096",
+      "name": "Musk Rose",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Green Apple, Bergamot",
+        "heart": "Damask Rose, White Musk",
+        "base": "Musk, Cedarwood, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0097",
+      "name": "My Desire",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Mango, Watermelon, Citrus",
+        "heart": "Freesia, Rose, Violet",
+        "base": "Sandalwood, Musk, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0098",
+      "name": "My Way",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Orange Blossom, Bergamot",
+        "heart": "Tuberose, Indian Jasmine",
+        "base": "Madagascar Vanilla, White Musk, Virginian Cedar"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0099",
+      "name": "Nabawi",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Taif Rose, Floral Notes",
+        "heart": "Saffron, Amber, Jasmine",
+        "base": "Oud, Sandalwood, White Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0100",
+      "name": "Nagita Slavina",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Red Berries, Citrus Zest",
+        "heart": "Peony, Freesia, Rose",
+        "base": "Vanilla, Soft Musk, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0101",
+      "name": "Olla Ramlan",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Tangerine, Bergamot, Pear",
+        "heart": "Tuberose, Jasmine, Lily",
+        "base": "Patchouli, Vanilla, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0102",
+      "name": "One Direction",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Pink Grapefruit, Wild Berries, Red Currant",
+        "heart": "Jasmine, Freesia, Frangipani",
+        "base": "Musk, Sheer Woods, White Patchouli"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0103",
+      "name": "One Million",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Blood Mandarin, Grapefruit, Mint",
+        "heart": "Cinnamon, Rose, Spicy Notes",
+        "base": "Amber, Leather, Woody Notes, Indian Patchouli"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0104",
+      "name": "Oud Bukhiyah",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Incense, Smoky Notes",
+        "heart": "Dark Oud, Amber, Spices",
+        "base": "Leather, Sandalwood, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0105",
+      "name": "Paco Rabanne",
+      "category": "Segar & Bersih",
+      "impression": "Herbal, segar, dinamis",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Mint, Green Notes, Lavender",
+        "heart": "Spices, Pepper, Coriander",
+        "base": "Oakmoss, Musk, Cedar"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0106",
+      "name": "Paradoxe Intense",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Pear, Neroli, Bergamot",
+        "heart": "Moss, Neroli Essence, Jasmine",
+        "base": "Bourbon Vanilla, Amber, Musk, Serenolide"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0107",
+      "name": "Paris Hilton",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Melon, Apple, Peach",
+        "heart": "Freesia, Mimosa, Jasmine, Lily of the Valley, Tuberose, Lily",
+        "base": "Ylang-Ylang, Musk, Oakmoss, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0108",
+      "name": "Paris Hilton Can-Can",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Nectarine, Blackcurrant, Clementine",
+        "heart": "Wild Orchid, Orange Blossom",
+        "base": "Amber, Musk, Woodsy Notes"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0109",
+      "name": "Paris Hilton Heiress",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Passionfruit, Peach Granita, Champagne, Mimosa, Orange",
+        "heart": "Star Jasmine, Tiare Flower, Ylang-Ylang, Honeysuckle, Grenadine, Dewberry",
+        "base": "Violet Leaf, Vetiver, Tonka Bean, Blonde Woods"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0110",
+      "name": "Paris Hilton Passport",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Red Berries, Mandarin Orange, Peach",
+        "heart": "Jasmine, Honeysuckle, Peony",
+        "base": "Vanilla, Amber, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0111",
+      "name": "Paris Hilton Siren",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Frangipani, Apricot, Mandarin Orange",
+        "heart": "Orchid, Lotus, Honeysuckle",
+        "base": "Vanilla, Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0112",
+      "name": "Pink Chiffon",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Wild Strawberry, Pear, Peach, Mandarin Orange",
+        "heart": "Apple Blossom, Tiare Flower, Jasmine, Water Lily",
+        "base": "Vanilla, Coconut Milk, Orchid, Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0113",
+      "name": "Polo Black",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Mango, Sage, Green Effervescent Accord",
+        "heart": "Silver Armoise, Hedione",
+        "base": "Patchouli Noir, Sandalwood, Timberol, Tonka Bean"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0114",
+      "name": "Polo Sport",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Mint, Aldehydes, Lavender, Bergamot, Mandarin Orange, Lemon, Artemisia, Neroli",
+        "heart": "Seagrass, Ginger, Jasmine, Geranium, Rose, Rosewood, Cyclamen",
+        "base": "Musk, Sandalwood, Cedar, Guaiac Wood, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0115",
+      "name": "Pomegranate",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Pomegranate, Plum, Red Berries",
+        "heart": "Pink Pepper, Lily of the Valley, Clove",
+        "base": "Amber, Patchouli, Cedarwood, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0116",
+      "name": "Pramugari / Garuda",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bergamot, Green Tea",
+        "heart": "Jasmine, Lily of the Valley",
+        "base": "White Musk, Soft Wood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0117",
+      "name": "Raffi Ahmad",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Citrus, Bergamot, Sea Accord",
+        "heart": "Nutmeg, Lavender, Geranium",
+        "base": "Cedarwood, Amber, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0118",
+      "name": "Rebel",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Passionfruit, Pepper",
+        "heart": "Leather, Sage",
+        "base": "Amber, Vetiver"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0119",
+      "name": "Red Cherry",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Sour Cherry, Almond",
+        "heart": "Plum, Turkish Rose, Jasmine",
+        "base": "Tonka Bean, Vanilla, Cloves, Cinnamon"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0120",
+      "name": "Romantic Vanilla",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Sugar, Freesia",
+        "heart": "Vanilla Orchid, Chamomile",
+        "base": "Warm Vanilla, Amber, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0121",
+      "name": "Romantic Wish",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Pomegranate, Freesia",
+        "heart": "Peony, Floral Accord",
+        "base": "Warm Sugar, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0122",
+      "name": "Roti Boy",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Roasted Coffee, Sweet Butter",
+        "heart": "Fresh Baked Bread Accord, Vanilla Cream",
+        "base": "Caramelized Sugar, Maple"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0123",
+      "name": "Royal Blue",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bergamot, Melon, Galbanum",
+        "heart": "Lavender, Violet, Rose",
+        "base": "Cedarwood, Sandalwood, Patchouli, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0124",
+      "name": "Royal Oud",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Lemon, Pink Berry, Bergamot",
+        "heart": "Cedar, Galbanum, Angelica Roots",
+        "base": "Oud, Sandalwood, Tonka Bean"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0125",
+      "name": "Sabaya",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Green Citrus, Fresh Apple",
+        "heart": "Rose, Jasmine, Lily",
+        "base": "White Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0126",
+      "name": "Sarah Jessica Parker",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Lavender, Martini, Bergamot, Mandarin Orange, Rosewood",
+        "heart": "Patchouli, Orchid, Narcissus",
+        "base": "Musk, Woodsy Notes, Cedar, White Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0127",
+      "name": "Scarlett",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Tea, Honeysuckle, Pear, Citrus",
+        "heart": "Jasmine, African Orange Flower, Tuberose",
+        "base": "Honey, White Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0128",
+      "name": "Scandal",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Blood Orange, Mandarin Orange",
+        "heart": "Honey, Gardenia, Orange Blossom, Jasmine, Peach",
+        "base": "Beeswax, Caramel, Patchouli, Licorice"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0129",
+      "name": "Scandal Red",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Raspberry, Blackcurrant",
+        "heart": "Tuberose, Orange Blossom",
+        "base": "Tonka Bean, Patchouli, Vanilla"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0130",
+      "name": "Sedap Malam",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Green Leaf, Orange Blossom",
+        "heart": "Tuberose, Jasmine Sambac, Ylang-Ylang",
+        "base": "Sandalwood, White Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0131",
+      "name": "Selena Gomez",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Raspberry, Peach, Pineapple, Blackberry",
+        "heart": "Purple Freesia, Musk, Dewberry",
+        "base": "Dark Chocolate, Vanilla, Amber, Coconut"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0132",
+      "name": "Sexy Gravity",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Raspberry, Melon, Blackcurrant",
+        "heart": "Violet, Freesia, Jasmine",
+        "base": "Vanilla, Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0133",
+      "name": "Silver",
+      "category": "Segar & Bersih",
+      "impression": "Herbal, segar, dinamis",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Citrus, Mint",
+        "heart": "Jasmine, Lavender",
+        "base": "White Musk, Light Cedar"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0134",
+      "name": "Simfoni",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bergamot, Pear",
+        "heart": "Rose, Lily, Violet",
+        "base": "Vanilla, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0135",
+      "name": "Snow Peace",
+      "category": "Segar & Bersih",
+      "impression": "Sejuk, ringan, menyegarkan",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Ozone, Ice Accord, Mint",
+        "heart": "White Freesia, Lily of the Valley",
+        "base": "Crisp White Musk, Light Woods"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0136",
+      "name": "Soft",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Citrus, Vanilla",
+        "heart": "Caramel, Jasmine, Rose",
+        "base": "Orchid, Musk, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0137",
+      "name": "Strawberry",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Wild Strawberry, Red Berries",
+        "heart": "Strawberry Leaf, Jasmine",
+        "base": "Vanilla Sugar, Light Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0138",
+      "name": "Sugar Baby",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Cotton Candy, Citrus",
+        "heart": "Bubblegum, Strawberry, Marshmallow",
+        "base": "Vanilla, Sugar, Soft Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0139",
+      "name": "Sulthan",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Bergamot, Citrus",
+        "heart": "Spices, Amber, Rose",
+        "base": "Sandalwood, Musk, Cedarwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0140",
+      "name": "Sulthan Brunei",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Saffron, Rose, Spices",
+        "heart": "Cambodian Oud, Amber",
+        "base": "Sandalwood, Heavy Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0141",
+      "name": "Summer Fantasy",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Mango, Coconut, Passionfruit",
+        "heart": "Hibiscus, Frangipani",
+        "base": "Solar Amber, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0142",
+      "name": "Summer Festival",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Cherry Blossom, Ice Accord",
+        "heart": "Green Mandarin, Jasmine",
+        "base": "Sandalwood, Light Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0143",
+      "name": "Taylor Swift",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Blackberry, Raspberry, Passionfruit, Tea",
+        "heart": "Vanilla, Honeysuckle, Freesia",
+        "base": "Amber, Musk, White Wood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0144",
+      "name": "Terria Intense",
+      "category": "Kayu & Eksotis",
+      "impression": "Kayu, hangat, berkarakter",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Bergamot, Cardamom",
+        "heart": "Leather, Cedarwood",
+        "base": "Amber, Patchouli, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0145",
+      "name": "Triple Guys",
+      "category": "Segar & Bersih",
+      "impression": "Herbal, segar, dinamis",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Bergamot, Mint, Lemon",
+        "heart": "Lavender, Sage",
+        "base": "Cedarwood, Amber, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0146",
+      "name": "Vanilla",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Milk Accord, Sugar",
+        "heart": "Pure Vanilla Bean",
+        "base": "Tonka Bean, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0147",
+      "name": "Vanilla 28",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Vanilla Orchid, Jasmine",
+        "heart": "Brown Sugar, Tonka Bean",
+        "base": "Amber, Amberwood, Musk, Patchouli"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0148",
+      "name": "Vanilla Cake",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Buttercream, Milk Accord",
+        "heart": "Cake Batter, Almond",
+        "base": "Madagascar Vanilla, Caramel"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0149",
+      "name": "Vanilla Caramel",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Sweet Cream, Butter",
+        "heart": "Caramel, Warm Sugar",
+        "base": "Vanilla Bean, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0150",
+      "name": "Vanilla Ice",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Ice Accord, Menthol",
+        "heart": "Sweet Cream, Frosted Mint",
+        "base": "Vanilla Pod, White Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0151",
+      "name": "Vanilla Lace",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Vanilla, Musk",
+        "heart": "Orchid, Sugar",
+        "base": "Amber, Vanilla Bean"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0152",
+      "name": "Vanilla Latte",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Espresso Coffee, Milk Foam",
+        "heart": "Warm Vanilla, Sugar",
+        "base": "Cocoa, Tonka Bean"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0153",
+      "name": "Vanilla Madagascar",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Bourbon Vanilla, Bergamot",
+        "heart": "Floral Notes, Caramel",
+        "base": "Woody Vanilla, Amber"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0154",
+      "name": "Vanilla Mango",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Ripe Mango, Passionfruit",
+        "heart": "Vanilla Flower, Peach",
+        "base": "Creamy Vanilla, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0155",
+      "name": "Vanilla Red",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Red Berries, Citrus",
+        "heart": "Red Rose, Vanilla Orchid",
+        "base": "Amber, Warm Vanilla"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0156",
+      "name": "Vanilla Rose",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Watery Notes, Lemon",
+        "heart": "Rose, Sugar",
+        "base": "Vanilla, Cedar, White Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0157",
+      "name": "Vanilla Secret",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Pear, Vanilla Orchid",
+        "heart": "Whipped Cream, Freesia",
+        "base": "Warm Amber, Musk, Vanilla"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0158",
+      "name": "Vanilla Susu",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Condensed Milk, Cream",
+        "heart": "Vanilla Bean, Sugar",
+        "base": "White Musk, Tonka Bean"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0159",
+      "name": "Vanilla Warm",
+      "category": "Manis & Lembut",
+      "impression": "Manis, lembut, nyaman",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Warm Vanilla, Sugar",
+        "heart": "Coconut, Chamomile",
+        "base": "Amber, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0160",
+      "name": "Victoria's Secret",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Red Apple, Bergamot",
+        "heart": "Orchid, Peony, Jasmine",
+        "base": "Vanilla, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0161",
+      "name": "Victoria's Secret Bombshell",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Passionfruit, Grapefruit, Pineapple, Tangerine, Big Strawberry",
+        "heart": "Peony, Vanilla Orchid, Red Berries, Jasmine, Lily of the Valley",
+        "base": "Musk, Woody Notes, Oakmoss"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0162",
+      "name": "Victoria's Secret Coco",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Coconut Water, Bergamot",
+        "heart": "Coconut Flesh, Jasmine",
+        "base": "Creamy Vanilla, Solar Notes, Woods"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0163",
+      "name": "Victoria's Secret Pink",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Mandarin Orange, Bergamot, Artemisia, Juniper Berries",
+        "heart": "Freesia, Peony, Lily of the Valley",
+        "base": "Vanilla, Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0164",
+      "name": "Viva La Juicy",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Wild Berries, Mandarin Orange",
+        "heart": "Honeysuckle, Gardenia, Jasmine",
+        "base": "Caramel, Vanilla, Amber, Praline, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0165",
+      "name": "Viva Selyne",
+      "category": "Bunga & Elegan",
+      "impression": "Bunga, lembut, elegan",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Citrus Zest, Green Notes",
+        "heart": "Rose, Lily, Jasmine",
+        "base": "Soft Powder, White Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0166",
+      "name": "Zafaron Putih",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, kaya, eksotis",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "White Saffron, Aldehydes",
+        "heart": "Light Oud, Floral Accord",
+        "base": "White Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0167",
+      "name": "Zahrat Hawai",
+      "category": "Buah & Ceria",
+      "impression": "Buah, cerah, ceria",
+      "intensity": "Sedang",
+      "notes": {
+        "top": "Pineapple, Coconut, Citrus",
+        "heart": "Frangipani, Exotic Flowers",
+        "base": "Caramel, Vanilla, Musk"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0168",
+      "name": "Zara Black",
+      "category": "Hangat & Berani",
+      "impression": "Hangat, rempah, tegas",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "Orange, Bergamot",
+        "heart": "Cinnamon, Cardamom",
+        "base": "Vanilla, Amber, Leather"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0169",
+      "name": "Zara Home",
+      "category": "Kayu & Eksotis",
+      "impression": "Kayu, hangat, berkarakter",
+      "intensity": "Kuat",
+      "notes": {
+        "top": "White Tea, Bergamot",
+        "heart": "Cedarwood, Amber",
+        "base": "Musk, Sandalwood"
+      },
+      "price": null
+    },
+    {
+      "id": "ARM-0170",
+      "name": "Zara Navy",
+      "category": "Segar & Bersih",
+      "impression": "Cerah, segar, energik",
+      "intensity": "Ringan",
+      "notes": {
+        "top": "Grapefruit, Bergamot",
+        "heart": "Sea Accord, Lavender",
+        "base": "Vetiver, Cedarwood"
+      },
+      "price": null
+    }
+  ]
+}
