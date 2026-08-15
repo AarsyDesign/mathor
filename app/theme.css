@@ -1,0 +1,56 @@
+:root {
+  --moss: #4b302d;
+  --shopee: #b25539;
+  --shopee-hover: #91402d;
+}
+
+.tagline {
+  color: var(--brass);
+}
+
+.primary {
+  border-color: var(--shopee);
+  color: var(--paper);
+  background: var(--shopee);
+}
+
+.primary:hover {
+  border-color: var(--shopee-hover);
+  background: var(--shopee-hover);
+}
+
+.header-actions .ghost {
+  border-color: var(--rust);
+  color: var(--rust);
+}
+
+.header-actions .ghost:hover {
+  border-color: var(--rust);
+  color: var(--paper);
+  background: var(--rust);
+}
+
+.final-cta {
+  background: var(--moss);
+}
+
+.floating-whatsapp {
+  border-color: #25d366;
+  color: #102a1b;
+  background: #25d366;
+}
+
+.floating-whatsapp:hover {
+  border-color: #1fbd5a;
+  background: #1fbd5a;
+}
+
+.whatsapp-mark {
+  border-color: rgba(16, 42, 27, 0.55);
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.whatsapp-mark svg {
+  width: 17px;
+  height: 17px;
+}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./logo.css";
+import "./theme.css";
 
 export const metadata: Metadata = {
   title: "Mathor | Aroma yang Mengikuti Langkahmu",

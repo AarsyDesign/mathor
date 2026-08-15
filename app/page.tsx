@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 import { siteContent } from "./content";
 
 const { brand } = siteContent;
@@ -320,7 +321,7 @@ export default function Home() {
       </footer>
 
       <a className="floating-whatsapp" href={brand.whatsappUrl} aria-label="Chat Mathor on WhatsApp">
-        <span className="whatsapp-mark" aria-hidden="true">WA</span>
+        <span className="whatsapp-mark" aria-hidden="true"><FaWhatsapp /></span>
         <span>WhatsApp</span>
       </a>
     </main>
