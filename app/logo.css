@@ -1,0 +1,45 @@
+.brandmark {
+  gap: 10px;
+}
+
+.brandmark-crest {
+  width: 36px;
+  height: 46px;
+  flex: none;
+  object-fit: contain;
+}
+
+.brandmark-wordmark {
+  width: 138px;
+  height: auto;
+  flex: none;
+}
+
+footer .brandmark img {
+  filter: invert(1) grayscale(1) brightness(1.2);
+}
+
+.stats-band {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 700px) {
+  .stats-band div:nth-child(-n+2) {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .brandmark {
+    gap: 8px;
+  }
+
+  .brandmark-crest {
+    width: 29px;
+    height: 37px;
+  }
+
+  .brandmark-wordmark {
+    width: 108px;
+  }
+}

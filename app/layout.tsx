@@ -1,24 +1,25 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./logo.css";
 
 export const metadata: Metadata = {
   title: "Mathor | Aroma yang Mengikuti Langkahmu",
   description:
-    "Mathor Fragrance House dari Pontianak menghadirkan inspired fragrance, parfum spray, parfum oles, serta layanan retail, reseller, dan B2B.",
+    "Mathor Fragrance House dari Pontianak menghadirkan parfum induk, parfum alkohol, dan parfum non-alkohol untuk pelanggan personal dan retail.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/mathor-crest.png",
+    shortcut: "/mathor-crest.png",
   },
   openGraph: {
     title: "Mathor",
-    description: "Inspired fragrance, parfum spray, dan parfum oles dari Pontianak.",
-    images: ["/og.png"],
+    description: "Parfum induk, parfum alkohol, dan parfum non-alkohol dari Pontianak.",
+    images: ["/hero-mathor-consumer.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Mathor",
-    description: "Inspired fragrance, parfum spray, dan parfum oles dari Pontianak.",
-    images: ["/og.png"],
+    description: "Parfum induk, parfum alkohol, dan parfum non-alkohol dari Pontianak.",
+    images: ["/hero-mathor-consumer.png"],
   },
 };
 

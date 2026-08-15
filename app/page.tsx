@@ -8,32 +8,8 @@ const { brand } = siteContent;
 function Logo() {
   return (
     <a className="brandmark" href="#top" aria-label="Mathor home">
-      <span className="brandmark-symbol" aria-hidden="true">
-        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" width="38" height="38">
-          <defs>
-            <linearGradient id="brassGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stopColor="#A87938"/>
-              <stop offset="50%" stopColor="#C69B5F"/>
-              <stop offset="100%" stopColor="#A87938"/>
-            </linearGradient>
-          </defs>
-          <path d="M24 4 L24 16" stroke="url(#brassGrad)" strokeWidth="1.5" strokeLinecap="round"/>
-          <ellipse cx="24" cy="20" rx="10" ry="3" stroke="url(#brassGrad)" strokeWidth="1.5" fill="none"/>
-          <path d="M14 20 Q14 14 18 11 Q24 6 30 11 Q34 14 34 20" stroke="url(#brassGrad)" strokeWidth="1.5" fill="none"/>
-          <path d="M18 20 L18 36 Q24 42 30 36 L30 20" stroke="url(#brassGrad)" strokeWidth="1.5" fill="none"/>
-          <path d="M24 36 L24 44" stroke="url(#brassGrad)" strokeWidth="1.5" strokeLinecap="round"/>
-          <circle cx="24" cy="32" r="2" fill="url(#brassGrad)"/>
-          <path d="M8 30 Q16 26 24 30 Q32 26 40 30" stroke="url(#brassGrad)" strokeWidth="1" strokeDasharray="3 3" opacity="0.5"/>
-          <circle cx="12" cy="12" r="1.5" fill="url(#brassGrad)" opacity="0.6"/>
-          <circle cx="36" cy="38" r="1" fill="url(#brassGrad)" opacity="0.5"/>
-          <circle cx="10" cy="40" r="0.8" fill="url(#brassGrad)" opacity="0.4"/>
-          <circle cx="42" cy="10" r="1.2" fill="url(#brassGrad)" opacity="0.5"/>
-        </svg>
-      </span>
-      <span className="brandmark-copy">
-        <strong>MATHOR</strong>
-        <small>Fragrance House</small>
-      </span>
+      <img className="brandmark-crest" src="/mathor-crest.png" alt="" width="189" height="239" aria-hidden="true" />
+      <img className="brandmark-wordmark" src="/mathor-wordmark.png" alt="" width="732" height="161" aria-hidden="true" />
     </a>
   );
 }
@@ -100,13 +76,6 @@ export default function Home() {
   const headerRef = useRef<HTMLElement>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
-  const [activeRoute, setActiveRoute] = useState(0);
-  const [routePulse, setRoutePulse] = useState(0);
-
-  const activateRoute = (index: number) => {
-    setActiveRoute(index);
-    setRoutePulse((value) => value + 1);
-  };
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -180,10 +149,10 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-visual reveal delay">
-          <img src="/hero-mathor.png" alt="Editorial perfume bottles for Mathor" />
+          <img src="/hero-mathor-consumer.png" alt="Koleksi parfum Mathor dengan crest dan wordmark baru" />
           <div className="image-caption">
             <span>01</span>
-            <p>Berakar di Kalimantan Barat.<br />Bergerak ke seluruh Indonesia.</p>
+            <p>Dari Pontianak untuk menemani<br />langkahmu di seluruh Indonesia.</p>
           </div>
         </div>
       </section>
@@ -200,18 +169,18 @@ export default function Home() {
       <section className="section story" id="story">
         <div>
           <p className="eyebrow">Cerita Mathor</p>
-          <h2>Dari hubungan yang nyata, menuju jangkauan yang lebih luas.</h2>
+          <h2>Dari Pontianak, untuk menjadi bagian dari keseharianmu.</h2>
         </div>
         <div className="story-grid">
           <p>
-            Mathor bermula dari cara kerja yang dekat dengan pemilik toko:
-            datang langsung, memahami kebutuhan display, menjaga ritme suplai,
-            lalu membangun kepercayaan lewat kunjungan berkala.
+            Mathor tumbuh dari interaksi yang dekat dan pemahaman bahwa setiap
+            orang memiliki selera aroma, rutinitas, dan cara mengekspresikan diri
+            yang berbeda.
           </p>
           <p>
-            Ekspansi online membuka jangkauan baru tanpa memutus sistem offline.
-            Pembeli personal bisa masuk lewat Shopee, sementara retail,
-            reseller, dan B2B tetap bisa berkonsultasi langsung via WhatsApp.
+            Kini koleksi Mathor dapat dijangkau lebih luas melalui Shopee.
+            Pelanggan personal maupun pemilik toko juga dapat berkonsultasi
+            langsung melalui WhatsApp sebelum memesan.
           </p>
         </div>
       </section>
@@ -219,8 +188,8 @@ export default function Home() {
       <section className="section" id="collections">
         <div className="section-heading">
           <p className="eyebrow">Koleksi</p>
-          <h2>Temukan aroma untuk setiap sisi dirimu.</h2>
-          <p>Tiga format untuk kebutuhan yang berbeda: inspired fragrance spray, perfume oil, dan pocket fragrance.</p>
+          <h2>Pilih jenis parfum yang paling sesuai.</h2>
+          <p>Kenali perbedaan parfum induk, parfum alkohol, dan parfum non-alkohol sebelum menentukan pilihan.</p>
         </div>
         <div className="product-grid">
           {siteContent.products.map((product) => (
@@ -259,7 +228,7 @@ export default function Home() {
       <section className="section why" id="why">
         <div className="section-heading">
           <p className="eyebrow">Mengapa Mathor</p>
-          <h2>Dibuat untuk dipakai. Dibangun untuk bertumbuh.</h2>
+          <h2>Dibuat untuk dipakai. Dipilih untuk menemani harimu.</h2>
         </div>
         <div className="value-grid">
           {siteContent.valueProps.map((item, index) => (
@@ -272,67 +241,20 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="route-story">
-        <div className="route-copy">
-          <p className="eyebrow">Perjalanan distribusi</p>
-          <h2>Dekat secara offline, mudah dijangkau secara online.</h2>
-          <p>
-            Distribusi langsung memberi Mathor pemahaman tentang toko, stok, dan
-            pembeli lokal. Kanal online memperluas pasar tanpa menghapus sentuhan
-            konsultatif yang membuat brand ini tumbuh.
-          </p>
-        </div>
-        <div className="route-line" aria-label="Distribution path from Pontianak to national market">
-          {routePulse > 0 && <span className="route-signal" key={routePulse} aria-hidden="true" />}
-          <button className={activeRoute === 0 ? "route-step active" : "route-step"} type="button" aria-pressed={activeRoute === 0} onClick={() => activateRoute(0)}>
-            <span aria-hidden="true" />
-            <strong>Pontianak</strong>
-            <small>Berangkat</small>
-          </button>
-          <i />
-          <button className={activeRoute === 1 ? "route-step active" : "route-step"} type="button" aria-pressed={activeRoute === 1} onClick={() => activateRoute(1)}>
-            <span aria-hidden="true" />
-            <strong>Retail Kalbar</strong>
-            <small>Jaringan offline</small>
-          </button>
-          <i />
-          <button className={activeRoute === 2 ? "route-step active" : "route-step"} type="button" aria-pressed={activeRoute === 2} onClick={() => activateRoute(2)}>
-            <span aria-hidden="true" />
-            <strong>Indonesia</strong>
-            <small>Jangkauan online</small>
-          </button>
-        </div>
-      </section>
-
       <section className="section" id="services">
         <div className="section-heading">
           <p className="eyebrow">Layanan</p>
-          <h2>Satu rumah parfum, empat cara untuk bekerja bersama.</h2>
+          <h2>Untuk pemakaian personal dan kebutuhan retail.</h2>
         </div>
         <div className="service-grid">
           {siteContent.services.map((service) => (
             <article className="service-card" key={service.title}>
               <span className="service-index">{String(siteContent.services.indexOf(service) + 1).padStart(2, "0")}</span>
               <div><h3>{service.title}</h3><p>{service.text}</p></div>
-              <a href={service.title === "Personal" ? brand.shopeeUrl : brand.whatsappUrl}>{service.cta} <span aria-hidden="true">↗</span></a>
+              <a href={service.title === "Belanja di Shopee" ? brand.shopeeUrl : brand.whatsappUrl}>{service.cta} <span aria-hidden="true">↗</span></a>
             </article>
           ))}
         </div>
-      </section>
-
-      <section className="b2b" id="b2b">
-        <div>
-          <p className="eyebrow">B2B / Private Label</p>
-          <h2>Hadirkan produk parfum dengan identitas brand Anda.</h2>
-          <p>
-            Pilih konsentrasi yang tersedia, lalu hadirkan produk menggunakan
-            brand atau merek dagang Anda. Detail kebutuhan dibahas langsung
-            bersama tim Mathor.
-          </p>
-        </div>
-        <a className="button primary" href={brand.whatsappUrl}>
-          Diskusi B2B
-        </a>
       </section>
 
       <section className="section testimonials" id="testimonials">
@@ -356,7 +278,7 @@ export default function Home() {
       <section className="section faq" id="faq">
         <div className="section-heading">
           <p className="eyebrow">Pertanyaan umum</p>
-          <h2>Sebelum memilih aroma atau memulai kerja sama.</h2>
+          <h2>Sebelum memilih aroma Mathor.</h2>
         </div>
         <div className="faq-list">
           {siteContent.faqs.map((faq, index) => (
@@ -375,13 +297,13 @@ export default function Home() {
 
       <section className="final-cta">
         <p className="eyebrow">Mulai bersama Mathor</p>
-        <h2>Mulai dari satu botol, satu toko, atau satu brand.</h2>
+        <h2>Pilih aromamu atau bicarakan kebutuhan tokomu.</h2>
         <div className="hero-actions">
           <a className="button primary" href={brand.shopeeUrl}>
-            Ke Shopee Mathor
+            Belanja di Shopee
           </a>
           <a className="button secondary" href={brand.whatsappUrl}>
-            Konsultasi WhatsApp
+            Chat WhatsApp
           </a>
         </div>
       </section>
